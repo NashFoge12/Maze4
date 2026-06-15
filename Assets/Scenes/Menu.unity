@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4014cb9926de2e42b0c5550a26b4c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Menu
-  LevelName: SampleScene
+  LevelName: EIDOLON
   progressText: {fileID: 1594742216}
   fillImage: {fileID: 1439400017}
   MinLoadTime: 7
