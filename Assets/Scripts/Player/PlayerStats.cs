@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class PlayerStats : MonoBehaviour
 
         UpdateUI();
 
+        Debug.Log("Vida restante: " + currentHealth);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -38,6 +41,9 @@ public class PlayerStats : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("GAME OVER");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        SceneManager.LoadScene("GameOver");
     }
 }

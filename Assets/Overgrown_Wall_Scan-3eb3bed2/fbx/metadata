@@ -1,0 +1,117 @@
+{
+	"assetNamespace": "fab",
+	"listing":
+	{
+		"averageRating": 0,
+		"createdAt": "",
+		"description": "<p>Overgrown retaining wall at a quarry in North Wales. Raw scan, 8k diffuse map. Processed in Agisoft Metashape/Photoscan. </p>",
+		"isAiForbidden": false,
+		"isAiGenerated": false,
+		"lastUpdatedAt": "",
+		"listingType": "3d-model",
+		"media": "",
+		"publishedAt": "2024-10-05T07:29:00.460002Z",
+		"reviewCount": 0,
+		"thumbnail": "https://media.fab.com/image_previews/gallery_images/6a798014-fc72-4d6c-8a9e-181b9b2a139d/964607db-7e25-4cf2-8db6-5fb4f7ead66e.jpeg",
+		"title": "Overgrown Wall Scan",
+		"uid": "3eb3bed2-95a6-492d-ba23-85dd7dac340f",
+		"updatedAt": "",
+		"user":
+		{
+			"coverImageUrl": "",
+			"profileImageUrl": "",
+			"sellerName": "commonspence",
+			"uid": "74d8fd9e-2b90-44e0-b8e9-c630f5de1bb0"
+		},
+		"tags": [
+			{
+				"name": "Quarry",
+				"slug": "quarry",
+				"uid": "169c32af-f080-4619-93b1-2f3e39a3efea"
+			},
+			{
+				"name": "Photogrammetry",
+				"slug": "photogrammetry",
+				"uid": "39435048-f16b-4977-b62b-82ff5ca8c38e"
+			},
+			{
+				"name": "Plant",
+				"slug": "plant",
+				"uid": "39825278-7eee-4f2e-aa9e-fa21a6f08c4f"
+			},
+			{
+				"name": "Overgrown",
+				"slug": "overgrown",
+				"uid": "47c122f1-a54c-4c54-9306-e94b3ba9dffb"
+			},
+			{
+				"name": "Wall",
+				"slug": "wall",
+				"uid": "b138d7ed-637e-4c63-b1dd-2295e069f06f"
+			},
+			{
+				"name": "Ivy",
+				"slug": "ivy",
+				"uid": "b18d5e57-844d-419d-ae65-c7accc732dec"
+			},
+			{
+				"name": "Ruin",
+				"slug": "ruin",
+				"uid": "d6f49c13-b481-4dd6-b32f-fef96826ab6c"
+			}
+		],
+		"category":
+		{
+			"name": "Naturaleza y plantas",
+			"path": "nature-plants",
+			"slug": "nature-plants",
+			"uid": "57243087-7d23-45a2-b08d-cf12cc77efed"
+		},
+		"assetFormats": [
+			{
+				"assetFormatType":
+				{
+					"name": "FBX",
+					"groupName": "Formatos de intercambio 3D",
+					"code": "fbx",
+					"icon": "cube",
+					"extensions": [
+						"fbx"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Archivos convertidos",
+					"groupName": "",
+					"code": "converted-files",
+					"icon": "cube",
+					"extensions": [
+						"gltf",
+						"glb",
+						"usdz"
+					]
+				}
+			}
+		],
+		"_PluginMetas":
+		{
+			"apiDataVersion": "0.0.1",
+			"entitlementUid": "6011e632-fdd4-4773-803d-679e987395c5",
+			"cacheSize": 0,
+			"downloaded": []
+		}
+	},
+	"target": "",
+	"quality": "",
+	"format": "fbx",
+	"fileId": "81bc06ad-cc16-44b6-b801-80b536772f71",
+	"platformIncluded": "",
+	"distributionPointBaseUrls": [],
+	"distributionMethod": "",
+	"entitlementUid": "6011e632-fdd4-4773-803d-679e987395c5",
+	"invertedNormal": false,
+	"isConverted": false,
+	"isQuixel": false
+}

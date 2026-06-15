@@ -1,6 +1,7 @@
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerEmotions : MonoBehaviour
 {
@@ -34,7 +35,6 @@ public class PlayerEmotions : MonoBehaviour
 
     void PassiveIncrease()
     {
-        // ejemplo base (luego lo conectamos a Eidolon)
         fear += Time.deltaTime * 0.5f;
         stress += Time.deltaTime * 0.3f;
         rage += Time.deltaTime * 0.2f;
@@ -69,7 +69,10 @@ public class PlayerEmotions : MonoBehaviour
     {
         if (fear >= 100 || stress >= 100 || rage >= 100)
         {
-            Debug.Log("GAME OVER - mente colapsada");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
