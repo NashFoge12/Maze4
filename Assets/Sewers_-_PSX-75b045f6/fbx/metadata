@@ -1,0 +1,93 @@
+{
+	"assetNamespace": "fab",
+	"listing":
+	{
+		"averageRating": 3.6000000000000001,
+		"createdAt": "",
+		"description": "<p>Modular 3D models on sewers</p><p><strong>Model format:</strong></p><p>.fbx</p><p>.dae</p><p>.blend</p>",
+		"isAiForbidden": false,
+		"isAiGenerated": false,
+		"lastUpdatedAt": "",
+		"listingType": "3d-model",
+		"media": "https://media.fab.com/image_previews/gallery_images/8d23c26f-ed61-468f-bee3-1bc0539ec5df/8b02d129-aa9b-480a-b40e-078cba1f9bb0.png",
+		"publishedAt": "2024-11-12T17:28:29.258644Z",
+		"reviewCount": 5,
+		"thumbnail": "https://media.fab.com/image_previews/gallery_images/02bcf5d8-762f-4c3a-acff-2c7b5eeef03d/2a8240f8-dd4a-4aae-87ee-61c28e8ae73d.png",
+		"title": "Sewers - PSX",
+		"uid": "75b045f6-ef62-4bb7-a89e-dbebfbcdaeb9",
+		"updatedAt": "",
+		"user":
+		{
+			"coverImageUrl": "https://cdn1.epicgames.com/fab/seller/o-5wsde3g2afp7g3wm2ur98x68fa293q/backgroundImage/blob-1920x540-1c12c05d0ad8ef34092767a01b87d7b5.jpg",
+			"profileImageUrl": "https://cdn1.epicgames.com/fab/seller/o-5wsde3g2afp7g3wm2ur98x68fa293q/profileImage/blob-500x500-f2fd114c08f68341db1e0ca266a65a82.jpg",
+			"sellerName": "Elbolillo",
+			"uid": "f8ebdbdd-9595-4d02-814c-068130f06ff9"
+		},
+		"tags": [
+			{
+				"name": "Retro",
+				"slug": "retro",
+				"uid": "01b64ec5-7261-4c99-a280-a34680f1af03"
+			},
+			{
+				"name": "Atmosphere",
+				"slug": "atmosphere",
+				"uid": "3b5ee111-8e33-4cdf-84d7-0b36ca18aeb7"
+			},
+			{
+				"name": "Lowpoly",
+				"slug": "lowpoly",
+				"uid": "451806dc-649e-43b7-9c2e-a54485de14b6"
+			},
+			{
+				"name": "Level",
+				"slug": "level",
+				"uid": "8f2cd337-060b-438b-8d2d-62808026db6f"
+			},
+			{
+				"name": "Horror",
+				"slug": "horror",
+				"uid": "e2b772ec-e68e-400a-89da-4ed6863c2d08"
+			}
+		],
+		"category":
+		{
+			"name": "abandonado",
+			"path": "environments/abandonned",
+			"slug": "environments--abandonned",
+			"uid": "38ba42fe-bd74-4fcd-aff0-92eb5b0694f2"
+		},
+		"assetFormats": [
+			{
+				"assetFormatType":
+				{
+					"name": "FBX",
+					"groupName": "Formatos de intercambio 3D",
+					"code": "fbx",
+					"icon": "cube",
+					"extensions": [
+						"fbx"
+					]
+				}
+			}
+		],
+		"_PluginMetas":
+		{
+			"apiDataVersion": "0.0.1",
+			"entitlementUid": "3ea236c5-2fdd-4f29-82c3-88f7352ee93c",
+			"cacheSize": 0,
+			"downloaded": []
+		}
+	},
+	"target": "",
+	"quality": "",
+	"format": "fbx",
+	"fileId": "33a3179d-8da9-43e2-85c1-c15ec68831ba",
+	"platformIncluded": "",
+	"distributionPointBaseUrls": [],
+	"distributionMethod": "",
+	"entitlementUid": "3ea236c5-2fdd-4f29-82c3-88f7352ee93c",
+	"invertedNormal": false,
+	"isConverted": false,
+	"isQuixel": false
+}

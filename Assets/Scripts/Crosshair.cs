@@ -4,13 +4,24 @@ public class Crosshair : MonoBehaviour
 {
     public float interactDistance = 3f;
 
+    private Camera cam;
+
+    void Update()
+    {
+        if (cam == null)
+            cam = Camera.main;
+    }
+
     void OnGUI()
     {
+        if (cam == null)
+            return;
+
         Color crosshairColor = Color.white;
 
         Ray ray = new Ray(
-            Camera.main.transform.position,
-            Camera.main.transform.forward
+            cam.transform.position,
+            cam.transform.forward
         );
 
         RaycastHit hit;
@@ -21,15 +32,13 @@ public class Crosshair : MonoBehaviour
                 hit.collider.GetComponent<Interactable>();
 
             if (interactable != null)
-            {
                 crosshairColor = Color.green;
-            }
         }
 
         GUI.color = crosshairColor;
 
         GUIStyle style = new GUIStyle();
-        style.fontSize = 24; // Tamaño del punto
+        style.fontSize = 24;
         style.normal.textColor = crosshairColor;
         style.alignment = TextAnchor.MiddleCenter;
 
