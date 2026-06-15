@@ -14,7 +14,6 @@ public class NPCPatrol : MonoBehaviour
     private float waitTimer = 0f;
     private bool isWaiting = false;
 
-    // Pequeño timer para evitar que detecte "llegó" demasiado pronto
     private float arrivalCheckDelay = 0.5f;
     private float arrivalCheckTimer = 0f;
 
@@ -35,13 +34,12 @@ public class NPCPatrol : MonoBehaviour
             if (waitTimer <= 0f)
             {
                 isWaiting = false;
-                arrivalCheckTimer = 0f; // Reinicia el timer al salir de espera
+                arrivalCheckTimer = 0f;
                 GoToRandomPoint();
             }
         }
         else
         {
-            // Espera un poco antes de empezar a verificar si llegó
             arrivalCheckTimer += Time.deltaTime;
 
             if (arrivalCheckTimer >= arrivalCheckDelay)
@@ -65,7 +63,7 @@ public class NPCPatrol : MonoBehaviour
 
     void GoToRandomPoint()
     {
-        arrivalCheckTimer = 0f; // Reinicia el timer cada vez que busca un nuevo punto
+        arrivalCheckTimer = 0f;
 
         for (int i = 0; i < 10; i++)
         {
