@@ -1692,10 +1692,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2500\u2500 CR\xC9DITOS \u2500\u2500\r\n\r\n\r\nDise\xF1o y Programaci\xF3n\r\nTu
-    Nombre Aqu\xED\r\n\r\n\r\nArte\r\nNombre del artista\r\n\r\n\r\nM\xFAsica\r\nNombre
-    del compositor\r\n\r\n\r\nAgradecimientos especiales\r\nA todos los que apoyaron
-    este proyecto\r\n\r\n\r\nHecho con Unity 6"
+  m_text: "\u2500\u2500 CR\xC9DITOS \u2500\u2500\r\n\r\n[ DISE\xD1O Y DESARROLLO
+    ]\r\n\r\nLissy Arapa\r\nInterfaz del Juego \u2022 Modelos 3D \u2022 Animaciones
+    \u2022 Soporte General\r\n\r\nNashira Suclle\r\nL\xF3gica de Programaci\xF3n
+    \u2022 Desarrollo de Sistemas \u2022 Soporte de UI\r\n\r\n\r\n[ ASSETS Y RECURSOS
+    ]\r\n\r\nModelos y Animaciones 3D\r\nMixamo\r\n\r\nM\xFAsica\r\nBiblioteca de
+    Audio de YouTube\r\n\r\nEfectos de Sonido\r\nPixabay\r\n\r\n\r\n[ AGRADECIMIENTOS
+    ESPECIALES ]\r\n\r\nA nuestra profesora, por guiarnos, compartir su conocimiento\r\ny
+    hacer posible la realizaci\xF3n de este proyecto.\r\n\r\nA todas las personas
+    que nos apoyaron durante el desarrollo.\r\n\r\n\r\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\r\nHecho
+    con Unity 6"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2157,7 +2163,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 463.7, y: -363.46}
   m_SizeDelta: {x: 600, y: 1500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766036565
@@ -2187,7 +2193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4567,7 +4573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1709102440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4834,7 +4840,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35c6bf7a917132245bfc733a23c6b979, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5f4bc96c27b8a6b4fbe7e2e5e0c9e02f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
